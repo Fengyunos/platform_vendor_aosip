@@ -107,6 +107,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/init.local.rc:root/init.aosip.rc
 
++# Phonelocation!
+PRODUCT_COPY_FILES +=  \
+    vendor/aosip/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
+
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
