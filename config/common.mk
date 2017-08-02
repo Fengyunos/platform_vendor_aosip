@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/init.local.rc:root/init.aosip.rc
 
-+# Phonelocation!
+# Phonelocation!
 PRODUCT_COPY_FILES +=  \
     vendor/aosip/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
 
